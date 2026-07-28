@@ -1,0 +1,16 @@
+{
+  "name": "KumoCoders Community",
+  "short_name": "KumoCoders",
+  "description": "A community platform for developers",
+  "start_url": "/community/",
+  "scope": "/community/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "orientation": "any",
+  "categories": ["social", "productivity"],
+  "icons": [
+    { "src": "/community/favicon-light.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

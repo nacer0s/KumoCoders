@@ -1,0 +1,14 @@
+{
+  "name": "@kumocoders/ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'UI package — no build step needed, imported directly'"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

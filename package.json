@@ -1,0 +1,40 @@
+{
+  "name": "kumocoders",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=server",
+    "dev:landing": "npm run dev --workspace=apps/landing",
+    "build": "npm run build --workspace=packages/ui && npm run build --workspace=apps/landing",
+    "build:ui": "npm run build --workspace=packages/ui",
+    "build:landing": "npm run build --workspace=apps/landing",
+    "build:admin": "npm run build --workspace=apps/admin",
+    "build:community": "npm run build --workspace=apps/community",
+    "build:projects": "npm run build --workspace=apps/projects",
+    "build:gallery": "npm run build --workspace=apps/gallery",
+    "build:blog": "npm run build --workspace=apps/blog",
+    "build:wiki": "npm run build --workspace=apps/wiki",
+    "build:reports": "npm run build --workspace=apps/reports",
+    "build:all": "npm run build --workspace=apps/landing && npm run build --workspace=apps/community && npm run build --workspace=apps/admin && npm run build --workspace=apps/blog && npm run build --workspace=apps/wiki && npm run build --workspace=apps/projects && npm run build --workspace=apps/gallery && npm run build --workspace=apps/reports",
+    "db:migrate": "node database/migrate.js",
+    "db:seed": "node database/seed.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^10.6.0"
+  },
+  "dependencies": {
+    "@tiptap/extension-image": "^3.29.1",
+    "@tiptap/extension-link": "^3.29.1",
+    "@tiptap/extension-placeholder": "^3.29.1",
+    "@tiptap/react": "^3.29.1",
+    "@tiptap/starter-kit": "^3.29.1",
+    "html2canvas": "^1.4.1"
+  }
+}

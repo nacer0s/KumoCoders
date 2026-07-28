@@ -1,0 +1,12 @@
+{
+  "name": "KumoCoders Studio",
+  "short_name": "Studio",
+  "start_url": "/studio",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "description": "Team collaboration workspace",
+  "icons": [
+    { "src": "/studio/favicon-dark.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

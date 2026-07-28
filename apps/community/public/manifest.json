@@ -1,0 +1,17 @@
+{
+  "name": "KumoCoders Community",
+  "short_name": "KumoCoders",
+  "description": "A community platform for developers",
+  "start_url": "/community/",
+  "scope": "/community/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#0D1117",
+  "theme_color": "#161B22",
+  "orientation": "any",
+  "categories": ["social", "productivity"],
+  "icons": [
+    { "src": "/community/favicon-dark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/community/favicon-light.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any monochrome" }
+  ]
+}
